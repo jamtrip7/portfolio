@@ -2,7 +2,7 @@
 
 ![Project Image](https://github.com/jamtrip7/portfolio/blob/main/assets/screenshot/Screenshot.png)
 
-> [Code Quiz](https://jamtrip7.github.io/portfolio/)
+> [My Portfolio](https://jamtrip7.github.io/portfolio/)
 
 ---
 
