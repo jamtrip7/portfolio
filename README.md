@@ -1,8 +1,8 @@
 #Portfolio
 
-![Project Image](https://github.com/jamtrip7/portfolio/blob/main/assets/screenshot/Screenshot.png)
+![Project Image]()
 
-> [My Portfolio](https://jamtrip7.github.io/portfolio/)
+> [My Portfolio]()
 
 ---
 
