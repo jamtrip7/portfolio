@@ -2,7 +2,7 @@
 
 ![Project Image]()
 
-> [My Portfolio]()
+> [My Portfolio](https://jamtrip7.github.io/portfolio/index)
 
 ---
 
