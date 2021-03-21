@@ -1,16 +1,18 @@
 * {
     box-sizing: border-box;
-    padding: 0%;
+    /* padding: 0%; */
     /* margin: 0%; */
     /* opacity: 0; */
 }
 
 body {
-    background-color: burlywood;
-    width: 100%;
+    /* background-color: burlywood; */
+    width: center;
+    height: auto;
     background-image: url("../images/Great-Outdoors.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
 }
 
 .header {
@@ -26,8 +28,7 @@ body {
 }
 
 .header h1 {
-    /* padding: -5%; */
-    /* width: 20%; */
+
     display: inline-block;
     font-size: 40px;
     text-decoration-color: white;
@@ -40,18 +41,8 @@ body {
     color: white;
 }
 
-/* .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
-    font-size: 20px; */
-}
-
-.header nav 
-/* ul li  */
-{
-    /* padding: 1vw; */
+.header nav ul li {
+    padding: 1vw;
     display: inline-block;
     margin-left: auto;
 }
@@ -68,18 +59,19 @@ body {
 
 .float-left {
     float: left;
-    margin-right: 25px;
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
 }
 
-body {
-    background-color: rgb(236, 4, 93);
-    background-size: 100%;
-}
+/* body {
+    background-color: rgb(236, 4, 93); 
+    background-size: 100%; 
+    
+} */
+
+
 
 .username {
     color: blue;
@@ -87,46 +79,23 @@ body {
 }
 
 nav {
-    text-align: left;
+    text-align: right;
     margin-left: 10px;
 }
 
 .nav-bar {
-    width: 55%;
+    text-align: right;
+    float: right;
+    display: inline-flex;
+    width: 40%;
     list-style: none;
     text-decoration: none;
     list-style-type: none;
 }
 
-.me {
-    float: left;
-    display: flex;
-    /* box-sizing: border-box; */
-    /* position: center; */
-    text-align: center;
-    background: burlywood;
-    width: 85%;
-    /* text-decoration: underline; */
-}
-
-.myface {
-    /* text-decoration: underline; */
-    /* width: 30%; */
-    /* border-radius:5px; */
-    /* float: left; */
-}
-
 .projects p {
     margin-right: 10px;
-}
     
-.great-outdoors {
-    /* height: 800px; */
-    /* width: 100%; */
-    /* margin-bottom: 25px; */
-    /* background-image: url("../images/Great-Outdoors.jpg"); */
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 
 /*This is for buttons.*/
@@ -159,27 +128,31 @@ section {
     width: 85%;
 }
 
-section img {
-     /* opacity: 90%; */
-}
+/* section img {
+     opacity: 90%;
+} */
 
 .projects {
     /* width: 85%;
     display: inline-block;
     margin-left: 25px; */
     /* position: center; */
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    height: 500px; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
 }
 
 .projects-area {
     /* text-decoration: underline; */
     text-align: center;
-    background: burlywood;
+    /* background: burlywood; */
     /* width: 85%; */
     /* position: center; */
     /* top: 50px; */
     /* height: 85%;
     background-position: center center; */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
+    
 }
 
 .projects h2 {
@@ -194,71 +167,43 @@ section img {
 }
 
 .banner-area {
-    background-color: burlywood;
-    /* width: 85%; */
-    /* text-decoration: underline; */
-    /* margin-left: 25%;
-    position: center;
-    height: 100%;
-    /* position: fixed; */
-    /* top: 50px;
-    background-image: url(Great-Outdoors); */
-    /* -webkit-background-size: cover; */
-    /* background-position: center center;
-    text-align: center;
-    padding: 1%; */
+    /* background-color: burlywood; */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
 }
 
 .banner-area h2 {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     text-decoration: underline;
-    /* display: inline-block; */
-    /* position: center; */
-    /* width: 85%; */
-    /* padding-bottom: 30px;
-    font-size: 40px;
-    font-family: 'Arial', 'Helvetica', 'sans-serif'; */
-    /* text-transform: unset; */
-    /* background-position: center;
-    color: black;
-    margin-right: 25px;
-    text-align: center; */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
 }
 
 .banner-area p {
-    /* display: inline-block;
-    width: 85%;
-    padding-top: 10%;
-    padding-bottom: 30px;
-    font-size: 25px;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
-    /* text-transform: unset; */
-    /* background-position: center;
-    background-color: burlywood;
-    color: black;
-    margin-right: 25px; */
-}
-
-/* p { 
-    padding: 10%;
-    width: 60%;
-    font-size: 16px;
-    text-align: center;
-} */
-
-.projects div p1 {
     text-decoration: underline;
-    /* margin-bottom: 20px;
-    padding: 25px;
-    height: 50px;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
-    background-color: none;
-    color: none; */
 }
 
-.projects p {
-    /* text-decoration: underline; */
-}
+/* .projects p {
+    text-decoration: none;
+} */
 
 /* #About Me {
     margin-bottom: 20px;
@@ -301,8 +246,8 @@ section img {
 
 .footer {
     background-color: transparent;
-    text-decoration: underline;
     color: rgb(236, 4, 93);
+    display: inline-flexbox;
     /* padding: 0px; */
     /* clear: both; */
     /* font-family: 'Arial', 'Helvetica', 'sans-serif'; */
@@ -311,31 +256,87 @@ section img {
 
 }
 
-.media {
+.media ul button a {
     position: absolute;
     transform: translate(-53%, -50%)
-
+    bottom: 50%
 }
 
-.footer ul li {
+.footer ul button a {
     list-style: none;
     margin: 10px 30px;
     display: inline-block;
     font-style: 20px;
     padding: 20px 20px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(hotpink, skyblue, black);
+    border: 1px solid hotpink;
     border-radius: 50%;
     transition: .5s;
 }
 
-.media li:hover {
+/* .media ul button a {
     color: #292929;
     border: 1px solid #292929;
     transition: .5s;
+} */
+
+/* .fa-facebook:hover {
+    background-image: url(assets\images\FaceBook.png);
+    background: #3B5998;
+    color: black;
+    opacity: 0.7;
+} */
+
+/* .fa-twitter:hover {
+    background: #55acee;
+    color: black;
+} */
+
+/* .fa-instagram:hover {
+    background: #125688;
+    color: black;
+    opacity: 0.7;
+} */
+
+
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: black;
+    opacity: 0.7;
+}
+
+/* .fa-youtube:hover {
+    background: #bb0000;
+    color: black;
+    opacity: 0.7;
+} */
+
+.fa-github:hover {
+    background: #292929;
+    color: black;
+    opacity: 0.7;
+}
+
+.footer p {
+    text-decoration: underline;
 }
 
 .footer p button {
     background-color: transparent;
     border: none;
 }
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    text-decoration: none;
+}
+
+p1 {
+    text-decoration: underline;
+}
+
+
+
