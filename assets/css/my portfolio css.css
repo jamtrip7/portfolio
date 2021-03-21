@@ -6,11 +6,13 @@
 }
 
 body {
-    background-color: burlywood;
-    width: 100%;
+    /* background-color: burlywood; */
+    width: center;
+    height: auto;
     background-image: url("../images/Great-Outdoors.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
 }
 
 .header {
@@ -26,8 +28,7 @@ body {
 }
 
 .header h1 {
-    /* padding: -5%; */
-    /* width: 20%; */
+
     display: inline-block;
     font-size: 40px;
     text-decoration-color: white;
@@ -39,14 +40,6 @@ body {
 .header h1 .Rippee {
     color: white;
 }
-
-/* .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
-    font-size: 20px;
-} */
 
 .header nav ul li {
     padding: 1vw;
@@ -72,10 +65,13 @@ body {
     float: right;
 }
 
-body {
-    background-color: rgb(236, 4, 93);
-    background-size: 100%;
-}
+/* body {
+    background-color: rgb(236, 4, 93); 
+    background-size: 100%; 
+    
+} */
+
+
 
 .username {
     color: blue;
@@ -99,6 +95,7 @@ nav {
 
 .projects p {
     margin-right: 10px;
+    
 }
 
 /*This is for buttons.*/
@@ -140,18 +137,22 @@ section {
     display: inline-block;
     margin-left: 25px; */
     /* position: center; */
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    height: 500px; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
 }
 
 .projects-area {
     /* text-decoration: underline; */
     text-align: center;
-    background: burlywood;
+    /* background: burlywood; */
     /* width: 85%; */
     /* position: center; */
     /* top: 50px; */
     /* height: 85%;
     background-position: center center; */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
+    
 }
 
 .projects h2 {
@@ -166,35 +167,34 @@ section {
 }
 
 .banner-area {
-    background-color: burlywood;
-    /* width: 85%; */
-    /* text-decoration: underline; */
-    /* margin-left: 25%;
-    position: center;
-    height: 100%;
-    /* position: fixed; */
-    /* top: 50px;
-    background-image: url(Great-Outdoors); */
-    /* -webkit-background-size: cover; */
-    /* background-position: center center;
-    text-align: center;
-    padding: 1%; */
+    /* background-color: burlywood; */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
 }
 
 .banner-area h2 {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     text-decoration: underline;
-    /* display: inline-block; */
-    /* position: center; */
-    /* width: 85%; */
-    /* padding-bottom: 30px;
-    font-size: 40px;
-    font-family: 'Arial', 'Helvetica', 'sans-serif'; */
-    /* text-transform: unset; */
-    /* background-position: center;
-    color: black;
-    margin-right: 25px;
-    text-align: center; */
+    background: linear-gradient(55deg, #0fb8ad 00%, #ff66d9 51%, #0fb8ad 85%);
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
 }
 
 .banner-area p {
@@ -280,23 +280,23 @@ section {
     transition: .5s;
 } */
 
-.fa-facebook:hover {
+/* .fa-facebook:hover {
     background-image: url(assets\images\FaceBook.png);
     background: #3B5998;
     color: black;
     opacity: 0.7;
-}
+} */
 
-.fa-twitter:hover {
+/* .fa-twitter:hover {
     background: #55acee;
     color: black;
-}
+} */
 
-.fa-instagram:hover {
+/* .fa-instagram:hover {
     background: #125688;
     color: black;
     opacity: 0.7;
-}
+} */
 
 
 .fa-linkedin:hover {
@@ -305,11 +305,11 @@ section {
     opacity: 0.7;
 }
 
-.fa-youtube:hover {
+/* .fa-youtube:hover {
     background: #bb0000;
     color: black;
     opacity: 0.7;
-}
+} */
 
 .fa-github:hover {
     background: #292929;
@@ -337,6 +337,3 @@ p {
 p1 {
     text-decoration: underline;
 }
-
-
-
